@@ -1,0 +1,120 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "task-block/shapedplugin-accordion",
+  "version": "0.1.0",
+  "title": "ShapedPlugin Accordion",
+  "category": "media",
+  "icon": "editor-kitchensink",
+  "description": "An accordion block",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "itemsGap": {
+      "type": "number",
+      "default": 10
+    },
+    "frontendCss": {
+      "type": "string",
+      "default": ""
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "titleBgType": {
+      "type": "string",
+      "default": "default"
+    },
+    "titleBgHover": {
+      "type": "string",
+      "default": "#c4c4c4"
+    },
+    "titlleBgColor": {
+      "type": "string",
+      "default": "#C4C4C4"
+    },
+    "titleTextHover": {
+      "type": "string",
+      "default": ""
+    },
+    "titlleTextColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "titleFontFamily": {
+      "type": "string",
+      "default": ""
+    },
+    "contentBgType": {
+      "type": "string",
+      "default": "default"
+    },
+    "contentBgColor": {
+      "type": "string",
+      "default": "#f3f3f3"
+    },
+    "contentHoverBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleTextAlingment": {
+      "type": "string",
+      "default": "left"
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "1"
+    },
+    "iconColorType": {
+      "type": "string",
+      "default": "default"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "iconHoverColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titlePadding": {
+      "type": "object",
+      "default": {
+        "top": "13px",
+        "left": "13px",
+        "right": "13px",
+        "bottom": "13px"
+      }
+    },
+    "contentPadding": {
+      "type": "object",
+      "default": {
+        "top": "10px",
+        "left": "10px",
+        "right": "10px",
+        "bottom": "10px"
+      }
+    },
+    "icon": {
+      "type": "string",
+      "default": "fas fa-chevron-down"
+    },
+    "iconSize": {
+      "type": "string"
+    }
+  },
+  "providesContext": {
+    "shapedplugin-accordion/icon": "icon"
+  },
+  "textdomain": "shapedplugin-accordion",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
