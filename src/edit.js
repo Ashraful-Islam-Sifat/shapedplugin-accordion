@@ -60,7 +60,6 @@ const Edit = ({ clientId, attributes, setAttributes }) => {
     { label: 'Bookman', value: 'Bookman, serif' },
     { label: 'Avant Garde', value: '"Avant Garde", sans-serif' }
   ];
-console.log(titleFontFamily);
 
     return(
     <>

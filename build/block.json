@@ -86,10 +86,10 @@
     "titlePadding": {
       "type": "object",
       "default": {
-        "top": "13px",
+        "top": "8px",
         "left": "13px",
         "right": "13px",
-        "bottom": "13px"
+        "bottom": "8px"
       }
     },
     "contentPadding": {
